@@ -1,6 +1,6 @@
-# Svelte + TS + Vite
+# Svelte + TS + Vite + Capacitor + SQLite
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+This template should help get you started developing with Svelte and TypeScript in Vite, building mobile applications or web sites with SQLite
 
 ## Recommended IDE Setup
 
@@ -46,7 +46,7 @@ import { writable } from "svelte/store";
 export default writable(0);
 ```
 
-## Capacitor
+## Capacitor SQLite Integration
 
 ### Install SQLite plugin
 
