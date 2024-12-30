@@ -82,7 +82,7 @@ npx cap add android
 npx cap add ios
 ```
 
-###IOS extra steps:
+### IOS extra steps:
 
 Add to `ios/App/App/Info.plist`:
 
@@ -93,7 +93,7 @@ Add to `ios/App/App/Info.plist`:
 <true/>
 ```
 
-###Android extra steps:
+### Android extra steps:
 
 Add to `android/app/src/main/AndroidManifest.xml`:
 
