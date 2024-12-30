@@ -1,0 +1,31 @@
+{
+  "name": "svelte-sqlite-capacitor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.2.0",
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^5.15.0",
+    "svelte-check": "^4.1.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "@capacitor-community/sqlite": "^6.0.2",
+    "@capacitor/app": "6.0.2",
+    "@capacitor/core": "6.2.0",
+    "@capacitor/haptics": "6.0.2",
+    "@capacitor/ios": "6.2.0",
+    "@capacitor/keyboard": "6.0.3",
+    "@capacitor/status-bar": "6.0.2",
+    "jeep-sqlite": "^2.8.0"
+  }
+}
